@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+configs/keys_dev.js
+.DS_Store
+.npmrc
+.env.local
