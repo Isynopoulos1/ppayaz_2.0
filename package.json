@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:server": "nodemon index.js"
+    "start:server": "nodemon index.js",
+    "start:client": "npm start --prefix client",
+    "dev": "run-p --race start:server start:client",
+    "heroku-postbuild": "sh ./scripts/deploy.sh"
   },
   "author": "isela alarcon",
   "license": "ISC",

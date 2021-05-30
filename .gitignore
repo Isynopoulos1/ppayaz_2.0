@@ -4,3 +4,4 @@ configs/keys_dev.js
 .DS_Store
 .npmrc
 .env.local
+build
