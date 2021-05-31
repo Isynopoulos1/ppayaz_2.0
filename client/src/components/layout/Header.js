@@ -12,7 +12,7 @@ const Header = () => {
         <nav className="nav-main" id="nav-main">
           <Link to="/servicios">servicios</Link>
           <Link to="/casos">casos</Link>
-          <Link to="/contact">contacto</Link>
+          <Link to="/contacto">contacto</Link>
         </nav>
         <svg className="nav-mobile" id="nav-mobile" height="24" viewBox="0 0 24 24" width="24">
           <path d="M0 0h24v24H0z" fill="none" />
