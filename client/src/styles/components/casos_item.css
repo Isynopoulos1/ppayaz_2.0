@@ -1,0 +1,48 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+.carousel-item img,
+.carousel-item video {
+  width: 100%;
+}
+.carousel-selector {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: #fbf9e9;
+  border: 1px solid #084aeb;
+  transition: all 0.3s ease;
+}
+.carousel-selector:hover {
+  background-color: #084aeb;
+}
+.carousel-selector svg {
+  fill: #084aeb;
+}
+.carousel-selector:hover svg {
+  fill: #fbf9e9;
+}
+
+#prev {
+  left: 2rem;
+}
+#next {
+  right: 2rem;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 450px) {
+  .carousel-selector {
+    padding: 0.1rem;
+  }
+  #prev {
+    left: 1rem;
+  }
+  #next {
+    right: 1rem;
+  }
+}

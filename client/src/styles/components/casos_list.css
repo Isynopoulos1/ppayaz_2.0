@@ -1,0 +1,84 @@
+.casos-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.casos-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: calc(33.333% - 1px);
+  height: 30rem;
+  transition: all 0.3s ease;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  filter: opacity(0.7);
+}
+
+.casos-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.casos-item:hover {
+  filter: opacity(1);
+}
+
+.casos-item a {
+  display: flex;
+  justify-content: center;
+}
+
+.casos-item a img {
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.casos-item:hover a img {
+  transform: scale(1.3);
+}
+
+.casos-item a button {
+  display: none;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.casos-item:hover a button {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 1200px) {
+  .casos-item {
+    width: calc(50% - 1px);
+  }
+  .casos-item:nth-child(3n) {
+    margin-right: 1px;
+  }
+  .casos-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .casos-item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .casos-item:nth-child(3n) {
+    margin-right: 0;
+  }
+}

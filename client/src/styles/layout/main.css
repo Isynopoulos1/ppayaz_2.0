@@ -1,0 +1,33 @@
+body {
+  background-color: #fbf9e9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+main {
+  position: relative;
+  z-index: 0;
+  top: 4rem;
+  width: 100%;
+}
+
+section {
+  position: relative;
+}
+
+i {
+  font-family: "Material Icons";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 1500px) {
+  .container {
+    padding: 0 1rem;
+  }
+}

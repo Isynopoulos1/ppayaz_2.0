@@ -1,0 +1,9 @@
+footer {
+  position: relative;
+  top: 4rem;
+  padding: 4rem 0;
+}
+
+footer p {
+  color: #084aeb;
+}

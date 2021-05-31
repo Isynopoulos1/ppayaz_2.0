@@ -1,0 +1,9 @@
+.video {
+  position: relative;
+  width: 100%;
+}
+
+.video video {
+  position: relative;
+  width: 100%;
+}
