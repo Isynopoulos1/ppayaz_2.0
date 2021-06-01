@@ -3,11 +3,11 @@ import { withRouter } from "react-router-dom"
 import { Switch, Route } from "react-router-dom"
 
 // IMPORT PAGES
-import Home from "./pages/Home"
-import Contact from "./pages/Contact"
-import Error404 from "./pages/Error404"
-import Cases from "./pages/Cases"
-import Services from "./pages/Services"
+import HomePage from "./pages/HomePage"
+import ContactPage from "./pages/ContactPage"
+import Error404Page from "./pages/Error404Page"
+import CasesPage from "./pages/CasesPage"
+import ServicesPage from "./pages/ServicesPage"
 
 // IMPORT COMPONENTS
 import Header from "./layout/Header"
@@ -22,11 +22,11 @@ const App = ({ history }) => {
     <>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/contacto" component={Contact} />
-        <Route exact path="/casos" component={Cases} />
-        <Route exact path="/servicios" component={Services} />
-        <Route exact component={Error404} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/contacto" component={ContactPage} />
+        <Route exact path="/casos" component={CasesPage} />
+        <Route exact path="/servicios" component={ServicesPage} />
+        <Route exact component={Error404Page} />
       </Switch>
       <Footer />
     </>

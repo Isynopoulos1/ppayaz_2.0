@@ -6,7 +6,7 @@ import "../../styles/components/servicios.css"
 // IMPORT DATA
 import { services } from "../../assets/data"
 
-const Services = () => {
+const ServicesPage = () => {
   // RENDER FUNCTIONS
   const renderServices = () => {
     return services.map((service, i) => (
@@ -31,4 +31,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServicesPage

@@ -41,4 +41,29 @@ export const services = [
   }
 ]
 
-export const cases = [{ href: "/caso_doctou", src: "HARMONEY.png", alt: "" }]
+export const cases = [
+  {
+    href: "caso-harmoney",
+    alt: "Harmoney cover"
+  },
+  {
+    href: "caso-doctou",
+    alt: "Doc To You cover"
+  },
+  {
+    href: "caso-luiscuevas",
+    alt: "Luis Cuevas cover"
+  },
+  {
+    href: "caso-oda",
+    alt: "Oda Al Pan cover"
+  },
+  {
+    href: "caso-paty",
+    alt: "Rot Consulting cover"
+  },
+  {
+    href: "caso-corona",
+    alt: "Corona cover"
+  }
+]

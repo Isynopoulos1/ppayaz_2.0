@@ -1,7 +1,7 @@
 import React from "react"
 
-const Contact = () => {
+const ContactPage = () => {
   return <main>THIS IS CONTACT NIHIHASHIDASHDHASIDHAFOIAS</main>
 }
 
-export default Contact
+export default ContactPage
