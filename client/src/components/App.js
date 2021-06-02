@@ -18,14 +18,20 @@ import "../styles/layout/reset.css"
 import "../styles/layout/main.css"
 
 const App = ({ history }) => {
+  const routes = [
+    { path: "/", component: HomePage },
+    { path: "/contacto", component: ContactPage },
+    { path: "/casos", component: CasesPage },
+    { path: "/servicios", component: ServicesPage }
+  ]
+
   return (
     <>
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/contacto" component={ContactPage} />
-        <Route exact path="/casos" component={CasesPage} />
-        <Route exact path="/servicios" component={ServicesPage} />
+        {routes.map(route => (
+          <Route exact path={route.path} component={route.component} />
+        ))}
         <Route exact component={Error404Page} />
       </Switch>
       <Footer />

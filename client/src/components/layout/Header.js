@@ -5,14 +5,19 @@ import { Link } from "react-router-dom"
 import "../../styles/layout/header.css"
 
 const Header = () => {
+  const links = ["servicios", "casos", "contacto"]
+
+  // MAIN RENDER
   return (
     <header>
       <div className="container header-wrapper">
-        <Link to="/">LOGO</Link>
+        <Link to="/">
+          <img src="https://ik.imagekit.io/ppayaz/ppayaz-website/LOGO_azul_efUyKHTR7w8.png" alt="ppayaz logo" />
+        </Link>
         <nav className="nav-main" id="nav-main">
-          <Link to="/servicios">servicios</Link>
-          <Link to="/casos">casos</Link>
-          <Link to="/contacto">contacto</Link>
+          {links.map(link => (
+            <Link to={`/${link}`}>{link}</Link>
+          ))}
         </nav>
         <svg className="nav-mobile" id="nav-mobile" height="24" viewBox="0 0 24 24" width="24">
           <path d="M0 0h24v24H0z" fill="none" />

@@ -73,3 +73,25 @@ export const cases = [
     alt: "Corona cover"
   }
 ]
+
+export const testimonials = [
+  {
+    quote:
+      "Mi experiencia con Ppayaz fue excelente, desde la empatía que manejaron conmigo y con mi marca, hasta las recomendaciones que me hicieron. Espero poder trabajar nuevamente con ellos.",
+    author: "Carlos Chiquini Fundador de: Kiazen."
+  },
+  {
+    quote:
+      "Trabajan de una manera muy ágil, la comunicación es directa. El contenido de mi marca es único gracias a que se preocupan por entender lo que quiero. La calidad con la que trabajan es impresionante.",
+    author: "Luis CuevaS Fundador de: Tus Finanzas 360."
+  },
+  {
+    quote:
+      "Me encanta su calidad humana, su profesionalismo. Saben crear tus ideas a la perfección. Si no sabes por dónde empezar, te guían con la mejor estrategia. Siempre están disponibles para cuando lo necesitas, no importa en que parte del mundo te encuentres.",
+    author: "Patricia Lara Fundadora de: Rot Consulting"
+  },
+  {
+    quote: "Gran proyecto con gente realmente talentosa, es un gran laboratorio de ideas y creatividad sin límites",
+    author: "Alberto Ortiz Fundador y Growth Manager de AlterSquad"
+  }
+]
