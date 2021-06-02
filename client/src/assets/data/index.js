@@ -44,26 +44,32 @@ export const services = [
 export const cases = [
   {
     href: "caso-harmoney",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_ReAoHEVhv.png",
     alt: "Harmoney cover"
   },
   {
     href: "caso-doctou",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOCTOU_KVBQ3yRgUa4.png",
     alt: "Doc To You cover"
   },
   {
     href: "caso-luiscuevas",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUISCUEVAS_j651FWl_T.png",
     alt: "Luis Cuevas cover"
   },
   {
     href: "caso-oda",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_0CYcmVRO8.png",
     alt: "Oda Al Pan cover"
   },
   {
     href: "caso-paty",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/PATY_LOGO_PZ2i-5FUZpuU.png",
     alt: "Rot Consulting cover"
   },
   {
     href: "caso-corona",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_pA9mEQKndi.png",
     alt: "Corona cover"
   }
 ]

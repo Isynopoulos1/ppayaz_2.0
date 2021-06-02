@@ -11,10 +11,13 @@ const CasesPage = () => {
   // RENDER FUNCTIONS
   const renderCovers = () => {
     return (
-      <ul>
+      <ul className="casos-list">
         {cases.map((cover, i) => (
-          <li key={i}>
-            <Link to={`/casos/${cover.href}`}>{cover.alt}</Link>
+          <li className="casos-item" key={i}>
+            <Link to={`/casos/${cover.href}`}>
+              <img src={cover.src} alt={cover.alt} />
+              <button>Ver mas</button>
+            </Link>
           </li>
         ))}
       </ul>
@@ -22,15 +25,7 @@ const CasesPage = () => {
   }
 
   //MAIN RENDER
-  return (
-    <main>
-      <section className="casos">
-        <div className="container">
-          <div className="cases-content">{renderCovers()}</div>
-        </div>
-      </section>
-    </main>
-  )
+  return <main>{renderCovers()}</main>
 }
 
 export default CasesPage
