@@ -1,11 +1,12 @@
 import React from "react"
 
+// IMPORT COMPONENT
+import Testimonials from "../common/Testimonials"
+
 // IMPORT STYLE
 import "../../styles/components/contacto.css"
-import "../../styles/components/testimonials.css"
 
 // IMPORT DATA
-import { testimonials } from "../../assets/data"
 import { icons } from "../../assets/data"
 
 const ContactPage = () => {
@@ -29,27 +30,11 @@ const ContactPage = () => {
     )
   }
 
-  const renderTestimonials = () => {
-    return (
-      <section className="testimonials">
-        <div className="container">
-          <ul className="testimonials-list">
-            {testimonials.map((testimonial, i) => (
-              <li key={i} className="testimonials-item">
-                <p>{testimonial.quote}</p>
-                <p>{testimonial.author}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-    )
-  }
   //MAIN RENDER
   return (
     <main>
       {renderIcons()}
-      {renderTestimonials()}
+      <Testimonials />
     </main>
   )
 }
