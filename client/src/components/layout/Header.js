@@ -15,8 +15,10 @@ const Header = () => {
           <img src="https://ik.imagekit.io/ppayaz/ppayaz-website/LOGO_azul_efUyKHTR7w8.png" alt="ppayaz logo" />
         </Link>
         <nav className="nav-main" id="nav-main">
-          {links.map(link => (
-            <Link to={`/${link}`}>{link}</Link>
+          {links.map((link, i) => (
+            <Link key={i} to={`/${link}`}>
+              {link}
+            </Link>
           ))}
         </nav>
         <svg className="nav-mobile" id="nav-mobile" height="24" viewBox="0 0 24 24" width="24">

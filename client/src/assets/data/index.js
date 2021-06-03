@@ -95,3 +95,21 @@ export const testimonials = [
     author: "Alberto Ortiz Fundador y Growth Manager de AlterSquad"
   }
 ]
+
+export const icons = [
+  {
+    network: "behance",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/behance_logo_WLerdAuDF.png",
+    href: "https://www.behance.net/ppayazfreshp"
+  },
+  {
+    network: "linkedin",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/in_logo_NNvef4AT6.png",
+    href: "https://www.linkedin.com/in/ppayaz-fresh-people-5988371a5/"
+  },
+  {
+    network: "instagram",
+    src: "https://ik.imagekit.io/ppayaz/ppayaz-website/ig_logo_9vHZgK4RMkE.png",
+    href: "https://www.instagram.com/ppayaz_fresh"
+  }
+]

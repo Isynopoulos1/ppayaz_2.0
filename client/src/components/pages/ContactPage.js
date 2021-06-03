@@ -6,33 +6,36 @@ import "../../styles/components/testimonials.css"
 
 // IMPORT DATA
 import { testimonials } from "../../assets/data"
+import { icons } from "../../assets/data"
 
 const ContactPage = () => {
-  return (
-    <main>
-      <section class="contacto">
-        <div class="container">
+  // RENDER FUNCTIONS
+  const renderIcons = () => {
+    return (
+      <section className="contacto">
+        <div className="container">
           <h1>Contáctanos</h1>
           <h2>ppayaz.freshpeople@gmail.com</h2>
           <p>También puedes seguirnos en:</p>
-          <div class="contacto-social">
-            <a href="https://www.instagram.com/ppayaz_fresh" target="_blank" rel="noreferrer">
-              <img src="../../assets/icons/instagram.svg" alt="instagram logo" />
-            </a>
-            <a href="https://www.behance.net/ppayazfreshp" target="_blank" rel="noreferrer">
-              <img src="../../assets/icons/behance.svg" alt="behance logo" />
-            </a>
-            <a href="https://www.linkedin.com/in/ppayaz-fresh-people-5988371a5/" target="_blank" rel="noreferrer">
-              <img src="../../assets/icons/linked_in.svg" alt="linkedin logo" />
-            </a>
+          <div className="contacto-social">
+            {icons.map((icon, i) => (
+              <a key={i} href={icon.href} target="_blank" rel="noreferrer">
+                <img src={icon.src} alt={icon.network} />
+              </a>
+            ))}
           </div>
         </div>
       </section>
-      <section class="testimonials">
-        <div class="container">
-          <ul class="testimonials-list">
-            {testimonials.map(testimonial => (
-              <li class="testimonials-item">
+    )
+  }
+
+  const renderTestimonials = () => {
+    return (
+      <section className="testimonials">
+        <div className="container">
+          <ul className="testimonials-list">
+            {testimonials.map((testimonial, i) => (
+              <li key={i} className="testimonials-item">
                 <p>{testimonial.quote}</p>
                 <p>{testimonial.author}</p>
               </li>
@@ -40,6 +43,13 @@ const ContactPage = () => {
           </ul>
         </div>
       </section>
+    )
+  }
+  //MAIN RENDER
+  return (
+    <main>
+      {renderIcons()}
+      {renderTestimonials()}
     </main>
   )
 }
