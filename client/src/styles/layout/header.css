@@ -5,7 +5,7 @@ header {
   z-index: 1;
   height: 4rem;
   background-color: #fbf9e9;
-  border-bottom: 1px solid #c3d0ef;
+  border-bottom: 1px solid #c3d0ef !important;
 }
 header .header-wrapper {
   display: flex;

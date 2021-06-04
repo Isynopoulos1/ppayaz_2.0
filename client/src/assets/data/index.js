@@ -113,3 +113,45 @@ export const icons = [
     href: "https://www.instagram.com/ppayaz_fresh"
   }
 ]
+
+export const home = {
+  title: "Hola / Hello / Bonjour / Ciao / Konnichiwa / Olá / Guten Tag...",
+  description:
+    "El mundo cambió, la forma en que trabajamos también. El internet transformó la manera de comunicarnos y con ello disipó los límites para crear y hacer visibles nuestras ideas. Somos una colectivo independiente integrado por creativos de diferentes disciplinas: copywriters, diseñadores, animadores, developers, editores y fotógrafos. Construimos proyectos de manera remota, impulsamos marcas para conectarlas con su audiencia. We are people and we love tecnology.",
+  cases: [
+    {
+      href: "caso-harmoney",
+      src: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_ReAoHEVhv.png",
+      alt: "Harmoney cover"
+    },
+    {
+      href: "caso-doctou",
+      src: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOCTOU_KVBQ3yRgUa4.png",
+      alt: "Doc To You cover"
+    },
+    {
+      href: "caso-luiscuevas",
+      src: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUISCUEVAS_j651FWl_T.png",
+      alt: "Luis Cuevas cover"
+    }
+  ]
+}
+
+export const projects = {
+  "caso-harmoney": {
+    title: "asjfhasf",
+    description: "asohasfsaf",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  },
+  "caso-paty": {
+    title: "asjfhasf",
+    description: "asohasfsaf",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  }
+}

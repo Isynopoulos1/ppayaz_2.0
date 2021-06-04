@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import ContactPage from "./pages/ContactPage"
 import Error404Page from "./pages/Error404Page"
+import CaseDetailPage from "./pages/CaseDetailPage"
 import CasesPage from "./pages/CasesPage"
 import ServicesPage from "./pages/ServicesPage"
 
@@ -13,8 +14,7 @@ import ServicesPage from "./pages/ServicesPage"
 import Header from "./layout/Header"
 import Footer from "./layout/Footer"
 
-// IMPORT STYLE
-import "../styles/layout/reset.css"
+// IMPORT CSS
 import "../styles/layout/main.css"
 
 const App = ({ history }) => {
@@ -22,6 +22,7 @@ const App = ({ history }) => {
     { path: "/", component: HomePage },
     { path: "/contacto", component: ContactPage },
     { path: "/casos", component: CasesPage },
+    { path: "/casos/:name", component: CaseDetailPage },
     { path: "/servicios", component: ServicesPage }
   ]
 
