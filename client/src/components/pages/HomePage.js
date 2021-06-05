@@ -16,7 +16,7 @@ const HomePage = () => {
     //VIDEO SECTION
     <main>
       <section className="video">
-        <video id="video" src="https://ik.imagekit.io/ppayaz/ppayaz-website/PPAYAZ_HOME_2_Kq2H-AjI13O.mp4" autoPlay muted loop>
+        <video id="video" src="https://ik.imagekit.io/ppayaz/ppayaz-website/secuencia_1_2SQM0fP8D1B.mp4" autoPlay muted loop>
           Tu navegador no admite el elemento <code>video</code>.
         </video>
       </section>
