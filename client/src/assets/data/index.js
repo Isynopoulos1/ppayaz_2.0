@@ -139,16 +139,54 @@ export const home = {
 
 export const projects = {
   "caso-harmoney": {
-    title: "asjfhasf",
-    description: "asohasfsaf",
+    title: "Harmoney",
+    description:
+      "Creación de marca personal para Fernanda Antón, asesora financiera independiente quien deseaba plasmar una de las principales aspiraciones que tenemos como seres humanos: vivir en armonía a través del equilibrio de nuestra vida personal y nuestras finanzas.",
     carousel: [
       { type: "image", url: "kfgasfsaf" },
       { type: "video", url: "kfgasfsaf" }
     ]
   },
   "caso-paty": {
-    title: "asjfhasf",
-    description: "asohasfsaf",
+    title: "Rot Consulting",
+    description:
+      "Creación de contenido, estrategia y diseño para las redes sociales de RotConsulting, consultora especializada en servicios de asesoría en seguros de vida y gastos médicos individuales y empresariales.",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  },
+  "caso-luiscuevas": {
+    title: "Luis Cuevas",
+    description:
+      "Imagen corporativa para Luis Cuevas, asesor financiero experto en economía conductal. A través de un diseño minimalista creamos una marca que refleja estilo y vanguardia,dando un sello personal a su imagen.",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  },
+  "caso-oda": {
+    title: "Oda al Pan",
+    description:
+      "Oda al pan; una empresa que exalta lo mejor de la panadería tradicional mexicana adaptándose a un mercado que busca lo auténtico. Creamos una imagen corporativa cuyo elemento principal es una hoja de trigo y cuya tipografía forma una estética sencilla y elegante.",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  },
+  "caso-corona": {
+    title: "Orgullo Local",
+    description:
+      "Proyecto para #ideasPorNuestroMéxico, un acelerador de iniciativas patrocinado por cerveza Corona que durante la crisis del Covid-19 buscaba ideas para ayudar e impulsar el desarrollo del país durante y después de la crisis.",
+    carousel: [
+      { type: "image", url: "kfgasfsaf" },
+      { type: "video", url: "kfgasfsaf" }
+    ]
+  },
+  "caso-doctou": {
+    title: "Doc To You",
+    description:
+      "Red de doctores que radica en Barcelona la cual se gestiona a través de una aplicación. Se elaboró la imagen corporativa de dicha empresa para representar su principal función: conectar a las personas con los médicos al instante.",
     carousel: [
       { type: "image", url: "kfgasfsaf" },
       { type: "video", url: "kfgasfsaf" }
