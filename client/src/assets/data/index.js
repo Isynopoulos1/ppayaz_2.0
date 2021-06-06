@@ -177,7 +177,7 @@ export const projects = {
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_BOLSASCONLOGO_g861cyC68rH.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_TABLET_88mBtKUkH.png" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_WEB_2696X1042_2ok1K5MbR.mp4" }
     ]
   },
   "caso-corona": {
