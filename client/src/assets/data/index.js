@@ -155,8 +155,7 @@ export const projects = {
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_DESKTOP_uXb2Zgfe3.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_REDES_2L2UiZeYlnA.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_PHONE_-toi-NVOm.png" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_PHONE_-toi-NVOm.png" }
     ]
   },
   "caso-luiscuevas": {
@@ -166,8 +165,7 @@ export const projects = {
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_LOGO_uproiEAtzwt.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_DESK_Xfw9Pq3wj.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_APP_7iBi54iK6k2.png" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_APP_7iBi54iK6k2.png" }
     ]
   },
   "caso-oda": {
@@ -187,8 +185,7 @@ export const projects = {
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_LOGO_XdEQsH6xl.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_PHONE_31Mhb2H42u6.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_ETIQUETAS_RSZTNK-bglC.png" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_ETIQUETAS_RSZTNK-bglC.png" }
     ]
   },
   "caso-doctou": {
