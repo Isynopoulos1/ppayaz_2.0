@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+// IMPORT STYLING
+import "../../styles/components/casos_item.css"
+
 // IMPORT COMPONENT
 import List from "../common/List"
 

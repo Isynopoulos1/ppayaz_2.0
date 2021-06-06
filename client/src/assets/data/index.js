@@ -143,8 +143,9 @@ export const projects = {
     description:
       "Creación de marca personal para Fernanda Antón, asesora financiera independiente quien deseaba plasmar una de las principales aspiraciones que tenemos como seres humanos: vivir en armonía a través del equilibrio de nuestra vida personal y nuestras finanzas.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_LOGO_6XBjZaf4Y.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_WEB_YXRHnT1Do.png" },
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASO_VIDEO_HARMONEY_zYR_M25FK.mp4" }
     ]
   },
   "caso-paty": {
@@ -152,7 +153,9 @@ export const projects = {
     description:
       "Creación de contenido, estrategia y diseño para las redes sociales de RotConsulting, consultora especializada en servicios de asesoría en seguros de vida y gastos médicos individuales y empresariales.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_DESKTOP_uXb2Zgfe3.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_REDES_2L2UiZeYlnA.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_PHONE_-toi-NVOm.png" },
       { type: "video", url: "kfgasfsaf" }
     ]
   },
@@ -161,7 +164,9 @@ export const projects = {
     description:
       "Imagen corporativa para Luis Cuevas, asesor financiero experto en economía conductal. A través de un diseño minimalista creamos una marca que refleja estilo y vanguardia,dando un sello personal a su imagen.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_LOGO_uproiEAtzwt.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_DESK_Xfw9Pq3wj.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_APP_7iBi54iK6k2.png" },
       { type: "video", url: "kfgasfsaf" }
     ]
   },
@@ -170,7 +175,8 @@ export const projects = {
     description:
       "Oda al pan; una empresa que exalta lo mejor de la panadería tradicional mexicana adaptándose a un mercado que busca lo auténtico. Creamos una imagen corporativa cuyo elemento principal es una hoja de trigo y cuya tipografía forma una estética sencilla y elegante.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_BOLSASCONLOGO_g861cyC68rH.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_TABLET_88mBtKUkH.png" },
       { type: "video", url: "kfgasfsaf" }
     ]
   },
@@ -179,7 +185,9 @@ export const projects = {
     description:
       "Proyecto para #ideasPorNuestroMéxico, un acelerador de iniciativas patrocinado por cerveza Corona que durante la crisis del Covid-19 buscaba ideas para ayudar e impulsar el desarrollo del país durante y después de la crisis.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_LOGO_XdEQsH6xl.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_PHONE_31Mhb2H42u6.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_ETIQUETAS_RSZTNK-bglC.png" },
       { type: "video", url: "kfgasfsaf" }
     ]
   },
@@ -188,8 +196,9 @@ export const projects = {
     description:
       "Red de doctores que radica en Barcelona la cual se gestiona a través de una aplicación. Se elaboró la imagen corporativa de dicha empresa para representar su principal función: conectar a las personas con los médicos al instante.",
     carousel: [
-      { type: "image", url: "kfgasfsaf" },
-      { type: "video", url: "kfgasfsaf" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOCTOYOULOGO_MoXR1SwVh.png" },
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOC_MOCKUPS_n8pEnsWP8.png" },
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASOS_VIDEO_DOC_IeMTchG8h.mp4" }
     ]
   }
 }
