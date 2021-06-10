@@ -143,9 +143,9 @@ export const projects = {
     description:
       "Creación de marca personal para Fernanda Antón, asesora financiera independiente quien deseaba plasmar una de las principales aspiraciones que tenemos como seres humanos: vivir en armonía a través del equilibrio de nuestra vida personal y nuestras finanzas.",
     carousel: [
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASO_VIDEO_HARMONEY_zYR_M25FK.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_LOGO_6XBjZaf4Y.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_WEB_YXRHnT1Do.png" },
-      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASO_VIDEO_HARMONEY_zYR_M25FK.mp4" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_WEB_YXRHnT1Do.png" }
     ]
   },
   "caso-paty": {
@@ -173,9 +173,9 @@ export const projects = {
     description:
       "Oda al pan; una empresa que exalta lo mejor de la panadería tradicional mexicana adaptándose a un mercado que busca lo auténtico. Creamos una imagen corporativa cuyo elemento principal es una hoja de trigo y cuya tipografía forma una estética sencilla y elegante.",
     carousel: [
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_WEB_2696X1042_2ok1K5MbR.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_BOLSASCONLOGO_g861cyC68rH.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_TABLET_88mBtKUkH.png" },
-      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_WEB_2696X1042_2ok1K5MbR.mp4" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_TABLET_88mBtKUkH.png" }
     ]
   },
   "caso-corona": {
@@ -193,9 +193,9 @@ export const projects = {
     description:
       "Red de doctores que radica en Barcelona la cual se gestiona a través de una aplicación. Se elaboró la imagen corporativa de dicha empresa para representar su principal función: conectar a las personas con los médicos al instante.",
     carousel: [
+      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASOS_VIDEO_DOC_IeMTchG8h.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOCTOYOULOGO_MoXR1SwVh.png" },
-      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOC_MOCKUPS_n8pEnsWP8.png" },
-      { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASOS_VIDEO_DOC_IeMTchG8h.mp4" }
+      { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOC_MOCKUPS_n8pEnsWP8.png" }
     ]
   }
 }

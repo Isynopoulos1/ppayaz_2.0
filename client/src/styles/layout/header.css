@@ -46,17 +46,19 @@ header .nav-mobile {
 @media only screen and (max-width: 700px) {
   header .nav-main {
     display: none;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-start;
     z-index: 4;
-    right: 1rem;
-    top: 5rem;
-    width: 9rem;
+    right: 0;
+    top: 0;
+    width: 80%;
+    max-width: 280px;
+    height: 100%;
     margin: 0;
-    background-color: #fbf9e9;
-    border: 1px solid #c3d0ef;
+    background-color: #242c40;
+    border: none;
   }
   header .nav-main a {
     position: relative;
@@ -66,8 +68,9 @@ header .nav-mobile {
     width: calc(100% - 2rem);
     padding: 1rem;
     margin-left: 0;
-    border-bottom: 1px solid #c3d0ef;
+    border-bottom: 1px solid #36415d;
     border-radius: 0;
+    color: #fcf9ed;
     justify-content: flex-end;
   }
   header .nav-main a:last-child {
@@ -75,5 +78,10 @@ header .nav-mobile {
   }
   header .nav-mobile {
     display: flex;
+  }
+  header .nav-close {
+    position: relative;
+    padding: 1.3rem 1rem;
+    color: #fcf9ed;
   }
 }
