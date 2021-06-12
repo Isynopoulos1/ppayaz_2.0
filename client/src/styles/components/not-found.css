@@ -1,0 +1,23 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 14rem);
+  margin: 0 auto;
+}
+.not-found img {
+  width: 35rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .not-found img {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .not-found img {
+    width: 15rem;
+  }
+}
