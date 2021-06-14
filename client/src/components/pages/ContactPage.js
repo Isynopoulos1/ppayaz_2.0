@@ -1,6 +1,7 @@
 import React from "react"
 
 // IMPORT COMPONENT
+import Head from "../common/Head"
 import Testimonials from "../common/Testimonials"
 
 // IMPORT STYLE
@@ -32,10 +33,13 @@ const ContactPage = () => {
 
   //MAIN RENDER
   return (
-    <main>
-      {renderIcons()}
-      <Testimonials />
-    </main>
+    <>
+      <Head title="Contact | Ppayaz" description="i have to create a description" index />
+      <main>
+        {renderIcons()}
+        <Testimonials />
+      </main>
+    </>
   )
 }
 

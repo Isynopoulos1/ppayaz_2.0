@@ -1,5 +1,8 @@
 import React from "react"
 
+// IMPORT COMPONENT
+import Head from "../common/Head"
+
 // IMPORT STYLING
 import "../../styles/components/servicios.css"
 
@@ -20,14 +23,17 @@ const ServicesPage = () => {
 
   // MAIN RENDER
   return (
-    <main>
-      <section className="servicios">
-        <div className="container">
-          <h2>¿Qué hacemos?</h2>
-          <div className="servicios-content">{renderServices()}</div>
-        </div>
-      </section>
-    </main>
+    <>
+      <Head title="Servicios digitales | Ppayaz" description="i have to create a description" index />
+      <main>
+        <section className="servicios">
+          <div className="container">
+            <h2>¿Qué hacemos?</h2>
+            <div className="servicios-content">{renderServices()}</div>
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
 
