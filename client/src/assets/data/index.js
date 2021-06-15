@@ -141,7 +141,7 @@ export const projects = {
   "caso-harmoney": {
     title: "Harmoney",
     description:
-      "Creación de marca personal para Fernanda Antón, asesora financiera independiente quien deseaba plasmar una de las principales aspiraciones que tenemos como seres humanos: vivir en armonía a través del equilibrio de nuestra vida personal y nuestras finanzas.",
+      "Creación de marca personal para Fernanda Antón, asesora financiera independiente quien deseaba plasmar una de las principales aspiraciones que tenemos como seres humanos: vivir en armonía a través del equilibrio de vida personal y balance financiero.",
     carousel: [
       { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASO_VIDEO_HARMONEY_zYR_M25FK.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/HARMONEY_LOGO_6XBjZaf4Y.png" },
@@ -151,7 +151,7 @@ export const projects = {
   "caso-paty": {
     title: "Rot Consulting",
     description:
-      "Creación de contenido, estrategia y diseño para las redes sociales de RotConsulting, consultora especializada en servicios de asesoría en seguros de vida y gastos médicos individuales y empresariales.",
+      "Creación de contenido para redes sociales, estrategia y diseño digital de RotConsulting, consultora especializada en servicios de seguros de vida y gastos médicos individuales y empresariales.",
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_DESKTOP_uXb2Zgfe3.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ROT_REDES_2L2UiZeYlnA.png" },
@@ -161,7 +161,7 @@ export const projects = {
   "caso-luiscuevas": {
     title: "Luis Cuevas",
     description:
-      "Imagen corporativa para Luis Cuevas, asesor financiero experto en economía conductal. A través de un diseño minimalista creamos una marca que refleja estilo y vanguardia,dando un sello personal a su imagen.",
+      "Diseño de identidad de marca para Luis Cuevas, asesor financiero experto en economía conductal. A través de un diseño minimalista contemporaneo creamos una marca que refleja estilo fresco, dando un sello personal a su imagen.",
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_LOGO_uproiEAtzwt.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/LUIS_DESK_Xfw9Pq3wj.png" },
@@ -171,7 +171,7 @@ export const projects = {
   "caso-oda": {
     title: "Oda al Pan",
     description:
-      "Oda al pan; una empresa que exalta lo mejor de la panadería tradicional mexicana adaptándose a un mercado que busca lo auténtico. Creamos una imagen corporativa cuyo elemento principal es una hoja de trigo y cuya tipografía forma una estética sencilla y elegante.",
+      "Oda al pan; un emprendimiento que exalta lo mejor de productos de panadería artesanal a través de un negocio online, de esta forma buscan adaptarse a un mercado multifacético que busca lo auténtico. Creamos una diseño de logotipo cuyo elemento principal es una hoja de trigo y cuya tipografía forma una estética sencilla y elegante.",
     carousel: [
       { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_WEB_2696X1042_2ok1K5MbR.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/ODA_BOLSASCONLOGO_g861cyC68rH.png" },
@@ -181,7 +181,7 @@ export const projects = {
   "caso-corona": {
     title: "Orgullo Local",
     description:
-      "Proyecto para #ideasPorNuestroMéxico, un acelerador de iniciativas patrocinado por cerveza Corona que durante la crisis del Covid-19 buscaba ideas para ayudar e impulsar el desarrollo del país durante y después de la crisis.",
+      "Proyecto para #ideasPorNuestroMéxico, una iniciativa patrocinada por cerveza Corona que durante la crisis del Covid-19 buscaba ayudar a pequeños emprendimientos e impulsar el desarrollo del país y apoyar a negocios en tiempos de crisis.",
     carousel: [
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_LOGO_XdEQsH6xl.png" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CORONA_PHONE_31Mhb2H42u6.png" },
@@ -191,7 +191,7 @@ export const projects = {
   "caso-doctou": {
     title: "Doc To You",
     description:
-      "Red de doctores que radica en Barcelona la cual se gestiona a través de una aplicación. Se elaboró la imagen corporativa de dicha empresa para representar su principal función: conectar a las personas con los médicos al instante.",
+      "Red de doctores que radica en Barcelona la cual se gestiona a través de una aplicación para consultas médicas. Se elaboró el diseño de imagen corporativa de dicha empresa para representar su principal función: conectar a las personas con médicos particulares al instante.",
     carousel: [
       { type: "video", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/CASOS_VIDEO_DOC_IeMTchG8h.mp4" },
       { type: "image", url: "https://ik.imagekit.io/ppayaz/ppayaz-website/DOCTOYOULOGO_MoXR1SwVh.png" },
